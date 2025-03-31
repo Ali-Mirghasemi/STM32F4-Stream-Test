@@ -835,10 +835,11 @@ ARM Macro Assembler    Page 13
 Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M4.fp.sp --apcs=
 interwork --depend=stm32f4-stream-test\startup_stm32f407xx.d -ostm32f4-stream-t
 est\startup_stm32f407xx.o -I.\RTE\_STM32F4-Stream-Test -IC:\Users\MrCrazy\AppDa
-ta\Local\arm\packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include --predefine="__MICROLIB S
-ETA 1" --predefine="__UVISION_VERSION SETA 541" --predefine="STM32F407xx SETA 1
-" --predefine="_RTE_ SETA 1" --list=startup_stm32f407xx.lst startup_stm32f407xx
-.s
+ta\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include -IC:\Users\MrCrazy\AppDat
+a\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0_tmp\Drivers\CMSIS\Device\ST\STM32F4
+xx\Include --predefine="__MICROLIB SETA 1" --predefine="__UVISION_VERSION SETA 
+539" --predefine="_RTE_ SETA 1" --predefine="STM32F407xx SETA 1" --predefine="_
+RTE_ SETA 1" --list=startup_stm32f407xx.lst startup_stm32f407xx.s
 
 
 
